@@ -1,0 +1,39 @@
+body {
+  background-image: url("../img/pickle2.webp");
+  background-size: cover;
+  background-attachment: fixed;
+  color: aquamarine;
+  cursor: url("../img/toes.png"), auto;
+}
+
+h1 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: palegreen;
+  background-color: violet;
+}
+
+#wordart {
+  position: fixed;
+  z-index: 1;
+}
+#phinandferb {
+  position: absolute;
+}
+
+a {
+  background-color: red;
+  border: none;
+  color: blueviolet;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  margin-top: 675px;
+  position: absolute;
+}
+img {
+  transition: transform 1s ease-in-out;
+}
+img:hover {
+  transform: rotate(360deg);
+}
